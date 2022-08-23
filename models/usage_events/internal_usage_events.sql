@@ -1,0 +1,1 @@
+SELECT team_id as customer_id, mtu_no_replaced as resource_id, mtu_no_replaced as event_type, thru_date as event_date, mtu_no_replaced as metrics, mtu_no_replaced as context FROM {{ source('data_source', 'records') }}
